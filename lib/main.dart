@@ -44,7 +44,10 @@ class _MyAppState extends State<MyApp> {
                 child: Text('Get Battery Level'),
                 onPressed: _getBatteryLevel,
               ),
-              Text(_batteryLevel),
+              Text(
+                _batteryLevel,
+                textAlign: TextAlign.center,
+              ),
             ],
           ),
         ),
